@@ -1,0 +1,290 @@
+@media (max-width: 615px) {
+* {box-sizing: border-box}
+
+.mySlides img {
+  width: 100%;
+  height: 48vw;
+  object-fit: contain;
+}
+.divide-line {
+  width: 10vw;
+  height: 0.2vw;
+  background-color: #C5A694;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -1vw;
+  margin-bottom: 1.8vw;
+}
+/* Slideshow container */
+.slideshow-container {
+  margin-top: 3vw;
+  width: 82vw;
+  height: 48vw;
+  position: relative;
+  margin: auto;
+  border-radius: 1vw;
+  background-color: rgba(35, 31, 32, 0.5);
+  overflow: hidden;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  margin-bottom: 3vw;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/* Reel 1 */
+
+.dot2 {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    margin-bottom: 3vw;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot2:hover {
+    background-color: #717171;
+}
+.mySlides2 img {
+    width: 100%;
+    height: 48vw;
+    object-fit: contain;
+}
+
+/* Reel 2 */
+
+.dot3 {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  margin-bottom: 3vw;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot3:hover {
+    background-color: #717171;
+}
+.mySlides3 img {
+    width: 100%;
+    height: 48vw;
+    object-fit: contain;
+}
+
+/* Reel 3 */
+
+.dot4 {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  margin-bottom: 3vw;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot4:hover {
+    background-color: #717171;
+}
+.mySlides4 img {
+    width: 100%;
+    height: 48vw;
+    object-fit: contain;
+}
+
+/* Reel 4 */
+
+.dot5 {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  margin-bottom: 3vw;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot5:hover {
+    background-color: #717171;
+}
+.mySlides5 img {
+    width: 100%;
+    height: 48vw;
+    object-fit: contain;
+}
+
+/* Reel 5 */
+
+.dot6 {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  margin-bottom: 3vw;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot6:hover {
+    background-color: #717171;
+}
+.mySlides6 img {
+    width: 100%;
+    height: 48vw;
+    object-fit: contain;
+}
+
+/* Reel 6 */
+
+.dot7 {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  margin-bottom: 3vw;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot7:hover {
+    background-color: #717171;
+}
+.mySlides7 img {
+    width: 100%;
+    height: 48vw;
+    object-fit: contain;
+}
+
+/* Reel 7 */
+
+.dot8 {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  margin-bottom: 3vw;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot8:hover {
+    background-color: #717171;
+}
+.mySlides8 img {
+    width: 100%;
+    height: 48vw;
+    object-fit: contain;
+}
+
+/* Reel 8 */
+
+.dot9 {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  margin-bottom: 3vw;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot9:hover {
+    background-color: #717171;
+}
+.mySlides9 img {
+    width: 100%;
+    height: 48vw;
+    object-fit: contain;
+}
+}

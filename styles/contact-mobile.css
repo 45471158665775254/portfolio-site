@@ -1,0 +1,88 @@
+@media (max-width: 615px) {
+p {
+    font-size: 2.5vw;
+    font-family: 'Montserrat', sans-serif;
+}
+form {
+    font-family: 'Montserrat', sans-serif;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: #231F20;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.5vw;
+}
+input {
+    font-family: 'Montserrat', sans-serif;
+    width: 80vw;
+    height: 4.5vw;
+    font-size: 2.5vw;
+    background-color: #FEF0EB;
+    border: 1px solid #EAE1DE;
+    border-radius: 0.3vw;
+    transition: 0.2s;
+    margin-bottom: 1vw;
+    margin-top: 0.4vw;
+    padding: 1vw;
+}
+textarea {
+    font-family: 'Montserrat', sans-serif;
+    width: 80vw;
+    height: 30vw;
+    font-size: 2.5vw;
+    background-color: #FEF0EB;
+    border: 1px solid #EAE1DE;
+    border-radius: 0.3vw;
+    transition: 0.2s;
+    margin-top: -0.4vw;
+    padding: 1vw;
+}
+input:focus {
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    border: 1px solid #231F20;
+    box-shadow: 0 2rem 2rem rgba(0,0,0,0.1);
+}
+textarea:focus {
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    border: 1px solid #231F20;
+    box-shadow: 0 2rem 2rem rgba(0,0,0,0.1);
+}
+.required-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+button {
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    border: none;
+    width: 20vw;
+    height: 6vw;
+    background-color: #495F6D;
+    color: #FEF0EB;
+    text-align: center;
+    border-radius: 4vw;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    font-size: 3vw;
+    font-weight: 600;
+    padding-top: 0.75vw;
+    padding-bottom: 0.75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+button:hover {
+    font-family: 'Montserrat', sans-serif;
+    color: #495f6d;
+    cursor: pointer;
+    background-color: #FEF0EB;
+    -webkit-box-shadow: 2px 2px 0px 2px rgba(0,0,0,0.33); 
+    box-shadow: 2px 2px 0px 2px rgba(0,0,0,0.33);
+}
+}
